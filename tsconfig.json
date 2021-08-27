@@ -68,5 +68,7 @@
     /* Advanced Options */
     "skipLibCheck": true /* Skip type checking of declaration files. */,
     "forceConsistentCasingInFileNames": true /* Disallow inconsistently-cased references to the same file. */
-  }
+  },
+  "exclude": ["ignorarCarpeta"],
+  "include": ["ignorarCarpeta2"] // esto en el caso que quieras incluir alguna carpeta/archivo quer ya este excluido por TS
 }
