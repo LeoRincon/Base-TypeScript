@@ -6,13 +6,11 @@
     function sum(a, b) {
         return a + b;
     }
-    //funciones basic
     var contar = function (heroes) {
         return heroes.length;
     };
     var superHeroes = ['Batman', 'Super Man', 'Arrow'];
     contar(superHeroes);
-    //args for default
     var callBatman = function (call) {
         if (call) {
             console.log('batiseñal active');
@@ -26,7 +24,6 @@
     };
     callBatman();
     callBatman2();
-    //rest
     var unirHeroes = function () {
         var personas = [];
         for (var _i = 0; _i < arguments.length; _i++) {
@@ -34,9 +31,7 @@
         }
         return personas.join(', ');
     };
-    // Tipo de Function
     var noHaceNada = function (numero, texto, boolean, array) { };
-    //Acepta a fn noHaceNada
     var noHaceNadaTampoco;
     noHaceNadaTampoco = noHaceNada;
 })();

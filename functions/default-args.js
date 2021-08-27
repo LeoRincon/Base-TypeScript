@@ -1,9 +1,6 @@
 "use strict";
 (function () {
-    // param default
-    // cuando los args son optional deben ir a l final de
-    var fullName = function (firstName, upper, // al poner el value for default el tipy of data is optional
-    lastName) {
+    var fullName = function (firstName, upper, lastName) {
         if (upper === void 0) { upper = false; }
         if (upper) {
             return (firstName + " " + (lastName || '-------')).toUpperCase();

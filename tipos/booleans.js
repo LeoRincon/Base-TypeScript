@@ -1,10 +1,9 @@
 "use strict";
 (function () {
     var isSuperman = true;
-    // isSuperman = undefined == error
     var isBatman = true;
-    isSuperman = true && false; // acepta una expresion boolean
+    isSuperman = true && false;
     isSuperman = isBatman ? true : false;
-    console.log({ isSuperman: isSuperman }); // en {} cuando que quiero que me imprima por consola clave valor
+    console.log({ isSuperman: isSuperman });
 })();
 //# sourceMappingURL=booleans.js.map

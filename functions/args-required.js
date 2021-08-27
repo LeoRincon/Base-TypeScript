@@ -1,6 +1,5 @@
 "use strict";
 (function () {
-    // param obligatorios
     var fullName = function (firstName, lastName) {
         return firstName + " " + lastName;
     };

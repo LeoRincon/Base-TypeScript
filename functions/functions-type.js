@@ -7,7 +7,6 @@
     var myFunction2;
     var myFunction3;
     var myFunction4;
-    //* myFunction = 10 no permite valores si no es una fn
     myFunction = addNumbers;
     console.log(myFunction(1, 2));
     myFunction2 = addNumbers;

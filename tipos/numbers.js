@@ -9,7 +9,7 @@
     else {
         console.log('Estamos salvados');
     }
-    avengers = Number('55A'); // NaN pero tambien es tomado en cuenta como numero, por lo cual hay que tomar encuenta eso.
+    avengers = Number('55A');
     console.log({ avengers: avengers });
 })();
 //# sourceMappingURL=numbers.js.map

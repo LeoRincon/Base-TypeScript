@@ -7,6 +7,6 @@
     var greetings = function () {
         return 'hola';
     };
-    var heroName = returnNmae(); // infiere el tipo de dato que retorna la fn
+    var heroName = returnNmae();
 })();
 //# sourceMappingURL=functions.js.map

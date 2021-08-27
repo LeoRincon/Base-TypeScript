@@ -1,6 +1,5 @@
 "use strict";
 (function () {
-    //pasamos pro args el resto de args que puedan venir en la fn
     var fullName = function (firstName) {
         var restargs = [];
         for (var _i = 1; _i < arguments.length; _i++) {

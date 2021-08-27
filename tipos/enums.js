@@ -1,6 +1,5 @@
 "use strict";
 (function () {
-    //ayuda a rabajar con valores que tengan sentido semantico al leerlo.
     var AudioLevel;
     (function (AudioLevel) {
         AudioLevel[AudioLevel["min"] = 0] = "min";
