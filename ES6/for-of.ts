@@ -17,7 +17,7 @@
     weapon: 'Mjolnir',
   };
 
-  const arrs = [ironMan, CapAmerica, thor];
+  const arrs: Hero[] = [ironMan, CapAmerica, thor];
 
   for (const arr of arrs) {
     console.log(arr);
