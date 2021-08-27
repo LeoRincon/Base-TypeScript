@@ -31,4 +31,22 @@ var __rest = (this && this.__rest) || function (s, e) {
     };
     printAvenger(avergens);
 })();
+(() => {
+    const ironMan = {
+        name: 'Tony',
+        weapon: 'ArmorSuit',
+    };
+    const CapAmerica = {
+        name: 'Stive',
+        weapon: 'Escudo',
+    };
+    const thor = {
+        name: 'Thor',
+        weapon: 'Mjolnir',
+    };
+    const arrs = [ironMan, CapAmerica, thor];
+    for (const arr of arrs) {
+        console.log(arr);
+    }
+})();
 //# sourceMappingURL=main.js.map
