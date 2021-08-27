@@ -47,3 +47,4 @@
     mystique = charles;
     mystique = apocalipsis;
 })();
+//# sourceMappingURL=ejercicio.js.map

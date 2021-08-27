@@ -35,3 +35,4 @@
         console.log(largoDelPoder);
     })();
 })();
+//# sourceMappingURL=app.js.map

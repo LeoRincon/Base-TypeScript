@@ -9,3 +9,4 @@
     var name = ['juan', 'camilo', 'gabriel'];
     name.forEach(function (nombre) { return console.log(nombre.toUpperCase()); }); // el forEach detecta el tipo de datos que tiene el array.
 })();
+//# sourceMappingURL=arrays.js.map

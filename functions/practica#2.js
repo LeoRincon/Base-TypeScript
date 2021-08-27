@@ -40,3 +40,4 @@
     var noHaceNadaTampoco;
     noHaceNadaTampoco = noHaceNada;
 })();
+//# sourceMappingURL=practica#2.js.map

@@ -11,3 +11,4 @@
         //code
     };
 })();
+//# sourceMappingURL=void.js.map

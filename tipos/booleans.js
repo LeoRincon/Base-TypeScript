@@ -7,3 +7,4 @@
     isSuperman = isBatman ? true : false;
     console.log({ isSuperman: isSuperman }); // en {} cuando que quiero que me imprima por consola clave valor
 })();
+//# sourceMappingURL=booleans.js.map

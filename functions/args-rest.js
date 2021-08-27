@@ -11,3 +11,4 @@
     var superMan = fullName('Clark', 'Joseph', 'Kent');
     console.log(superMan);
 })();
+//# sourceMappingURL=args-rest.js.map

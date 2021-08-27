@@ -7,3 +7,4 @@
     var name = fullName('leo', 'rincon');
     console.log(name);
 })();
+//# sourceMappingURL=args-required.js.map

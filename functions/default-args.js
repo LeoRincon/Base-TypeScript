@@ -15,3 +15,4 @@
     var name = fullName('leo', true);
     console.log(name);
 })();
+//# sourceMappingURL=default-args.js.map

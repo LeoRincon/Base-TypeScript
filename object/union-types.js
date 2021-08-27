@@ -8,3 +8,4 @@
         powers: ['ninguno'],
     };
 })();
+//# sourceMappingURL=union-types.js.map
