@@ -22,6 +22,6 @@
   const printName = (character: Mutante) => {
     console.log(character.name);
   };
-  printName(wolverine);
-  printName(magneto);
+  // printName(wolverine);
+  // printName(magneto);
 })();

@@ -48,8 +48,6 @@
     const printName = (character) => {
         console.log(character.name);
     };
-    printName(wolverine);
-    printName(magneto);
 })();
 (() => {
     class Avengers {
@@ -109,8 +107,19 @@
     }
 })();
 (() => {
-    class name {
-        constructor(parameters) { }
+    class Apocalipsis {
+        constructor(name) {
+            this.name = name;
+        }
+        static callApocalipsis(name) {
+            if (!Apocalipsis.instance) {
+                Apocalipsis.instance = new Apocalipsis(name);
+            }
+            return Apocalipsis.instance;
+        }
     }
+    const apocalipsis1 = Apocalipsis.callApocalipsis('hola');
+    const apocalipsis2 = Apocalipsis.callApocalipsis('dos');
+    const apocalipsis3 = Apocalipsis.callApocalipsis('tres');
 })();
 //# sourceMappingURL=main.js.map
