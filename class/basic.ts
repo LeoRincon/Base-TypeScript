@@ -12,7 +12,7 @@
   }
 
   const atman: Avengers = new Avengers('Viuda Negra', 'Cap America', 'Natasha');
-  console.log(atman);
+  // console.log(atman);
 
   //* forma corta
   class Avengers2 {
@@ -34,5 +34,5 @@
   }
 
   const atman2: Avengers2 = new Avengers2('Atman', 'Cap America', 'Scott');
-  console.log(atman2.bio());
+  // console.log(atman2.bio());
 })();

@@ -26,6 +26,6 @@
     }
   }
 
-  const wolverine = new Xmen('Wolverine', 'Logan', true);
-  wolverine.getFullNameDesdeXmen();
+  // const wolverine = new Xmen('Wolverine', 'Logan', true);
+  // wolverine.getFullNameDesdeXmen();
 })();

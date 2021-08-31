@@ -36,9 +36,9 @@
     }
   }
 
-  const wolverine = new Xmen('Wolverine', 'Logan', true);
-  wolverine.getFullNameDesdeXmen();
-  console.log('get>>>', wolverine.fullName);
-  wolverine.fullName = 'leo';
-  console.log('set>>>', wolverine.fullName);
+  // const wolverine = new Xmen('Wolverine', 'Logan', true);
+  // wolverine.getFullNameDesdeXmen();
+  // console.log('get>>>', wolverine.fullName);
+  // wolverine.fullName = 'leo';
+  // console.log('set>>>', wolverine.fullName);
 })();

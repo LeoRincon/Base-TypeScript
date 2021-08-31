@@ -10,7 +10,6 @@
     }
     Avengers.avgAge = 35;
     const atman = new Avengers('Viuda Negra', 'Cap America', 'Natasha');
-    console.log(atman);
     class Avengers2 {
         constructor(name, team, realName) {
             this.name = name;
@@ -26,7 +25,31 @@
     }
     Avengers2.avgAge = 35;
     const atman2 = new Avengers2('Atman', 'Cap America', 'Scott');
-    console.log(atman2.bio());
+})();
+(() => {
+    class Mutante {
+        constructor(name, realName) {
+            this.name = name;
+            this.realName = realName;
+        }
+    }
+    class Xmen extends Mutante {
+        saveWorld() {
+            return 'Mundo salvado';
+        }
+    }
+    class Villian extends Mutante {
+        conquistarWorld() {
+            return 'Mundo Conquistado';
+        }
+    }
+    const wolverine = new Xmen('Wolverine', 'Logan');
+    const magneto = new Xmen('Magneto', 'Magnus');
+    const printName = (character) => {
+        console.log(character.name);
+    };
+    printName(wolverine);
+    printName(magneto);
 })();
 (() => {
     class Avengers {
@@ -51,8 +74,6 @@
             console.log('>>>>>', super.getFullName());
         }
     }
-    const wolverine = new Xmen('Wolverine', 'Logan', true);
-    wolverine.getFullNameDesdeXmen();
 })();
 (() => {
     class Avengers {
@@ -86,10 +107,10 @@
             console.log('>>>>>', super.getFullName());
         }
     }
-    const wolverine = new Xmen('Wolverine', 'Logan', true);
-    wolverine.getFullNameDesdeXmen();
-    console.log('get>>>', wolverine.fullName);
-    wolverine.fullName = 'leo';
-    console.log('set>>>', wolverine.fullName);
+})();
+(() => {
+    class name {
+        constructor(parameters) { }
+    }
 })();
 //# sourceMappingURL=main.js.map
