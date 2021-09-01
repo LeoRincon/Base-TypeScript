@@ -1,125 +1,46 @@
 "use strict";
 (() => {
-    class Avengers {
-        constructor(name, team, realName) {
-            this.name = 'No name';
-            this.team = 'Sin equipo';
-            this.realName = 'Nombre real';
-            (this.name = name), (this.team = team), (this.realName = realName);
-        }
-    }
-    Avengers.avgAge = 35;
-    const atman = new Avengers('Viuda Negra', 'Cap America', 'Natasha');
-    class Avengers2 {
-        constructor(name, team, realName) {
-            this.name = name;
-            this.team = team;
-            this.realName = realName;
-        }
-        static getAvgAge() {
+    let flash = {
+        name: 'Barry Allen',
+        age: 24,
+        powers: ['Súper veloz'],
+    };
+    let superMan = {
+        name: 'Clark Kent',
+        age: 60,
+        powers: ['Súper fuerte'],
+        getName() {
             return this.name;
-        }
-        bio() {
-            return `${this.name} (${this.team})`;
-        }
-    }
-    Avengers2.avgAge = 35;
-    const atman2 = new Avengers2('Atman', 'Cap America', 'Scott');
-})();
-(() => {
-    class Mutante {
-        constructor(name, realName) {
-            this.name = name;
-            this.realName = realName;
-        }
-    }
-    class Xmen extends Mutante {
-        saveWorld() {
-            return 'Mundo salvado';
-        }
-    }
-    class Villian extends Mutante {
-        conquistarWorld() {
-            return 'Mundo Conquistado';
-        }
-    }
-    const wolverine = new Xmen('Wolverine', 'Logan');
-    const magneto = new Xmen('Magneto', 'Magnus');
-    const printName = (character) => {
-        console.log(character.name);
+        },
     };
 })();
 (() => {
-    class Avengers {
-        constructor(name, realName) {
-            this.name = name;
-            this.realName = realName;
-            console.log('contructor del Avengers llamado');
-        }
-        getFullName() {
-            return `${this.name} (${this.realName})`;
-        }
-    }
-    class Xmen extends Avengers {
-        constructor(name, realName, isMutant) {
-            super(name, realName);
-            this.name = name;
-            this.realName = realName;
-            this.isMutant = isMutant;
-            console.log('constructor de Xmen');
-        }
-        getFullNameDesdeXmen() {
-            console.log('>>>>>', super.getFullName());
-        }
-    }
-})();
-(() => {
-    class Avengers {
-        constructor(name, realName) {
-            this.name = name;
-            this.realName = realName;
-            console.log('contructor del Avengers llamado');
-        }
-        getFullName() {
-            return `${this.name} (${this.realName})`;
-        }
-    }
-    class Xmen extends Avengers {
-        constructor(name, realName, isMutant) {
-            super(name, realName);
-            this.name = name;
-            this.realName = realName;
-            this.isMutant = isMutant;
-            console.log('constructor de Xmen');
-        }
-        get fullName() {
-            return `${this.name} - ${this.realName}`;
-        }
-        set fullName(name) {
-            if (name.length < 3) {
-                throw new Error('El nombre debe ser mayor a 3 caracteres');
-            }
-            this.name = name;
-        }
-        getFullNameDesdeXmen() {
-            console.log('>>>>>', super.getFullName());
-        }
-    }
-})();
-(() => {
-    class Apocalipsis {
-        constructor(name) {
-            this.name = name;
-        }
-        static callApocalipsis(name) {
-            if (!Apocalipsis.instance) {
-                Apocalipsis.instance = new Apocalipsis(name);
-            }
-            return Apocalipsis.instance;
-        }
-    }
-    const apocalipsis1 = Apocalipsis.callApocalipsis('hola');
-    const apocalipsis2 = Apocalipsis.callApocalipsis('dos');
-    const apocalipsis3 = Apocalipsis.callApocalipsis('tres');
+    const client = {
+        name: 'leo',
+        age: 31,
+        address: {
+            id: 125,
+            zip: 'HYG',
+            city: 'Ottawa',
+        },
+        getFullAddress(id) {
+            var _a;
+            return `id ${(_a = this.address) === null || _a === void 0 ? void 0 : _a.city}`;
+        },
+    };
+    const client2 = {
+        name: 'Isa',
+        age: 4,
+        address: {
+            id: 125,
+            zip: 'HYG',
+            city: 'Ottawa',
+        },
+        getFullAddress(id) {
+            var _a;
+            return `id ${(_a = this.address) === null || _a === void 0 ? void 0 : _a.city}`;
+        },
+    };
+    console.log(client.getFullAddress(2), client2);
 })();
 //# sourceMappingURL=main.js.map
