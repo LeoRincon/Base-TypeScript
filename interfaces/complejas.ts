@@ -38,5 +38,5 @@
     },
   };
 
-  console.log(client.getFullAddress(2), client2);
+  // console.log(client.getFullAddress(2), client2);
 })();

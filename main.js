@@ -15,6 +15,18 @@
     };
 })();
 (() => {
+    class Mutant {
+        constructor(age, name, realName) {
+            this.age = age;
+            this.name = name;
+            this.realName = realName;
+        }
+        mutanPower(id) {
+            return this.name + '' + this.realName;
+        }
+    }
+})();
+(() => {
     const client = {
         name: 'leo',
         age: 31,
@@ -41,6 +53,5 @@
             return `id ${(_a = this.address) === null || _a === void 0 ? void 0 : _a.city}`;
         },
     };
-    console.log(client.getFullAddress(2), client2);
 })();
 //# sourceMappingURL=main.js.map
